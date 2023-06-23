@@ -1,0 +1,452 @@
+/* #Login Styles */
+
+.loginContainer {
+  height: 80vh;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 10vh;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.loginHead {
+  width: 100%;
+  height: 10vh;
+  background-color: rgb(75, 5, 141);
+  color: white;
+  display: flex;
+}
+
+.loginHead p {
+  margin: auto;
+  font-size: 24px;
+  padding: 10px;
+  align-items: center;
+}
+
+.loginBody {
+  width: 100%;
+  height: 70vh;
+  background-color: rgb(150, 140, 160);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.inputs {
+  margin: auto;
+  width: 80%;
+  margin-top: 10vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.inputs label {
+  margin-bottom: 2vh;
+}
+
+.inputs p {
+  margin-top: 5vh;
+  letter-spacing: 2px;
+}
+
+.inputs p a {
+  color: rgb(83, 25, 177);
+  text-decoration: none;
+}
+
+.inputs input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  font-size: 15px;
+  border-radius: 5px;
+  border: none;
+}
+
+.inputs input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  font-size: 15px;
+  border-radius: 5px;
+  border: none;
+}
+
+.inputs button {
+  margin-top: 5vh;
+  padding: 10px;
+  color: white;
+  background-color: rgb(62, 1, 119);
+  cursor: pointer;
+  outline: none;
+  border: none;
+  font-size: 18px;
+  border-radius: 5px;
+  letter-spacing: 3px;
+}
+
+/* #Signup Styles */
+.signupContainer {
+  height: 80vh;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  border-radius: 15px;
+  overflow: hidden;
+  margin-top: 10vh;
+}
+
+.signupHead {
+  width: 100%;
+  height: 10vh;
+  background-color: rgb(75, 5, 141);
+  color: white;
+  display: flex;
+}
+
+.signupHead p {
+  margin: auto;
+  font-size: 24px;
+  padding: 10px;
+  align-items: center;
+}
+
+.signupBody {
+  width: 100%;
+  height: 70vh;
+  background-color: rgb(150, 140, 160);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.inputs {
+  margin: auto;
+  width: 80%;
+  margin-top: 10vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.inputs label {
+  margin-bottom: 2vh;
+}
+
+.inputs p {
+  margin-top: 5vh;
+  letter-spacing: 2px;
+}
+
+.inputs p a {
+  color: rgb(83, 25, 177);
+  text-decoration: none;
+}
+
+.inputs input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  font-size: 15px;
+  border-radius: 5px;
+  border: none;
+}
+
+.inputs input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  font-size: 15px;
+  border-radius: 5px;
+  border: none;
+}
+
+.inputs button {
+  margin-top: 5vh;
+  padding: 10px;
+  color: white;
+  background-color: rgb(62, 1, 119);
+  cursor: pointer;
+  outline: none;
+  border: none;
+  font-size: 18px;
+  border-radius: 5px;
+  letter-spacing: 2px;
+}
+
+/* #Dashboard Styles */
+
+.homeContainer {
+  height: 90vh;
+  width: 90%;
+  border: 1px solid rgb(18, 3, 104);
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 5vh;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+/* #Navbar Styles */
+
+.navbarContainer {
+  width: 100%;
+  height: 10vh;
+  background-color: rgb(75, 5, 141);
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+}
+
+.navbarContainer .logo {
+  height: 50px;
+  width: 50px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.navbarContainer p {
+  margin-top: 3vh;
+}
+
+.navbarContainer p span {
+  font-size: 11px;
+}
+
+.accounts {
+  display: flex;
+  flex-direction: row;
+}
+
+.accounts span {
+  margin-right: 4vh;
+  font-size: 32px;
+  cursor: pointer;
+}
+
+.accounts button {
+  padding: 10px;
+  color: rgb(62, 1, 119);
+  background-color: white;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  font-size: 14px;
+  border-radius: 5px;
+  letter-spacing: 2px;
+}
+
+/* #Contents Styles */
+
+.contentContainer {
+  height: 73vh;
+  width: 80%;
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  margin-top: 3vh;
+  border-radius: 15px;
+  overflow: scroll;
+  overflow-x: hidden;
+  padding: 10px;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card {
+  width: 30%;
+  border: none;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  margin-top: 3vh;
+  border-radius: 15px;
+  padding: 15px;
+  margin: auto;
+}
+
+.file {
+  height: 5rem;
+  width: 90%;
+  margin-top: 1vh;
+  border-radius: 10px;
+  padding: 10px;
+  margin: auto;
+}
+
+.cardFooter {
+  display: flex;
+  margin-top: 2vh;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.cardFooter button[id="view"] {
+  padding: 10px;
+  color: white;
+  background-color: green;
+  cursor: pointer;
+  width: 30%;
+  outline: none;
+  border: none;
+  font-size: 14px;
+  border-radius: 5px;
+  letter-spacing: 2px;
+}
+
+.cardFooter button[id="delete"] {
+  padding: 10px;
+  color: white;
+  background-color: rgb(189, 46, 46);
+  cursor: pointer;
+  width: 30%;
+  outline: none;
+  border: none;
+  font-size: 14px;
+  border-radius: 5px;
+  letter-spacing: 2px;
+}
+
+.cardFooter button[id="edit"] {
+  padding: 10px;
+  color: white;
+  width: 30%;
+  background-color: rgb(22, 101, 248);
+  cursor: pointer;
+  outline: none;
+  border: none;
+  font-size: 14px;
+  border-radius: 5px;
+  letter-spacing: 2px;
+}
+
+/* #EditDoc Styles */
+
+.editDocContainer {
+  height: 90vh;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 5vh;
+  border: 1px solid black;
+  border-radius: 15px;
+  overflow: hidden;
+  position: relative;
+}
+
+.editDocContainer textarea {
+  height: 100%;
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 15px;
+  font-size: 25px;
+}
+
+.editDocFooter {
+  position: absolute;
+  bottom: 0px;
+  border: 1px solid black;
+  width: 100%;
+  height: 10vh;
+}
+
+/* #ViewDoc Styles */
+
+.viewDocContainer {
+  height: 90vh;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 5vh;
+  border: 1px solid black;
+  border-radius: 15px;
+  overflow: hidden;
+  position: relative;
+}
+
+.viewDocContainer textarea {
+  height: 100%;
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 15px;
+  font-size: 25px;
+}
+
+.viewDocFooter {
+  position: absolute;
+  bottom: 0px;
+  border: 1px solid black;
+  width: 100%;
+  height: 10vh;
+}
+
+/* #Modal Styles */
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5;
+  z-index: 2;
+}
+
+.modal-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  max-width: 400px;
+  width: 100%;
+  transition: 0.5;
+}
+
+.modal-close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 20px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  transition: 0.5;
+}
+
+.modalDiv input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  font-size: 15px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+.modalDiv button[id="add"] {
+  padding: 10px;
+  color: white;
+  width: 100%;
+  background-color: rgb(22, 101, 248);
+  cursor: pointer;
+  outline: none;
+  border: none;
+  font-size: 14px;
+  border-radius: 5px;
+  letter-spacing: 2px;
+}
